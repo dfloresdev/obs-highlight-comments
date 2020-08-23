@@ -1,0 +1,59 @@
+{
+  "name": "obs-highlight-comments",
+  "version": "1.0.0",
+  "description": "App to see all comments and select one to highlight",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --watch-poll",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfloresdev/obs-highlight-comments.git"
+  },
+  "keywords": [
+    "OBS",
+    "Comments",
+    "highlight",
+    "stream",
+    "streaming"
+  ],
+  "author": "David Flores",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfloresdev/obs-highlight-comments/issues"
+  },
+  "homepage": "https://github.com/dfloresdev/obs-highlight-comments#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "html-webpack-plugin": "^4.3.0",
+    "prettier": "^2.0.5",
+    "standard": "^14.3.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "standard": {
+    "ignore": [
+      "/node_modules/**"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}
